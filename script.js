@@ -1,7 +1,7 @@
 const canvas = document.getElementById('hero-canvas');
 const context = canvas.getContext('2d');
 
-// ΚΕΝΤΡΑΡΟΥΜΕ ΤΟ CANVAS ΜΕΣΩ GSAP ΓΙΑ ΝΑ ΔΟΥΛΕΨΕΙ Η ΚΟΥΝΙΑ
+
 gsap.set("#hero-canvas", { xPercent: -50, yPercent: -50, transformOrigin: "center center" });
 
 function resizeCanvas() {
@@ -102,7 +102,6 @@ function playIntro() {
 resizeCanvas();
 window.addEventListener('resize', resizeCanvas);
 
-// Smooth scroll
 const scrollBtn = document.getElementById('scroll-btn');
 if (scrollBtn) {
     scrollBtn.addEventListener('click', (e) => {
@@ -113,9 +112,9 @@ if (scrollBtn) {
             ease: "power3.inOut" 
         });
     });
-} // ΕΔΩ ΚΛΕΙΝΕΙ ΤΟ SCROLL BUTTON
+} 
 
-// --- ΛΕΙΤΟΥΡΓΙΑ HAMBURGER MENU & BLUR ---
+
 const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('nav-links');
 
@@ -125,11 +124,11 @@ if (hamburger && navLinks) {
         
         if (navLinks.classList.contains('active')) {
             hamburger.innerHTML = '✕';
-            // Ενεργοποίηση θόλωσης
+            
             document.body.classList.add('menu-open'); 
         } else {
             hamburger.innerHTML = '☰';
-            // Απενεργοποίηση θόλωσης
+          
             document.body.classList.remove('menu-open'); 
         }
     });
