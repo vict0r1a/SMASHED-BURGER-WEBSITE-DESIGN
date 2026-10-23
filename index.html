@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smashed!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="hero-section">
+        
+        <nav class="navbar">
+            <!-- ΒΑΛΑΜΕ ΤΟ ΚΟΥΜΠΙ ΠΡΩΤΟ ΓΙΑ ΝΑ ΠΑΕΙ ΑΡΙΣΤΕΡΑ -->
+            <button class="hamburger" id="hamburger">☰</button>
+            
+            <div class="nav-logo">SMASHED!</div> 
+            
+            <div class="nav-links" id="nav-links">
+                <a href="#">MENU</a>
+                <a href="#">OUR PLACE</a>
+                <a href="#">REVIEWS</a>
+            </div>
+        </nav>
+
+        <div class="left-panel">
+            <canvas id="hero-canvas"></canvas>
+        </div>
+
+        <div class="right-panel">
+            <div class="content-wrapper">
+                <h1 class="main-title">SMASHED!</h1>
+                <p class="subtitle">est. 2026</p>
+                <p class="description">
+                    The ultimate smash burger experience. 
+                    100% fresh ingredients smashed together, melting into your mouth!             
+                </p>
+               <a href="#menu-section" class="cta-button" id="scroll-btn">Our Menu</a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
