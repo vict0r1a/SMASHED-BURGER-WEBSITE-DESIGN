@@ -6,7 +6,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
     background: content-box radial-gradient( #ef7d57,#181818e1);
-    overflow-x:hidden; /* Κλειδώνει τον οριζόντιο άξονα */
+    overflow-x:hidden; 
     overflow-y:hidden; 
 }
 
@@ -62,7 +62,7 @@ body {
     position: relative;
     overflow: hidden; 
     z-index: 1;
-    /* ΠΡΟΣΘΗΚΗ: Ομαλή μετάβαση για το blur */
+
     transition: filter 0.4s ease, pointer-events 0.4s;
 }
 
@@ -78,7 +78,7 @@ body {
     pointer-events: none;
 }
 
-/*η θέση του burger στο αριστερό πάνελ*/
+
 #hero-canvas {
     position: absolute;
     top: 50%;
@@ -95,7 +95,7 @@ body {
     padding: 0 8%; 
     z-index: 2;
     background: radial-gradient(to right, #ef7d57 10%, #181818e1 100%); 
-    /* ΠΡΟΣΘΗΚΗ: Ομαλή μετάβαση για το blur */
+  
     transition: filter 0.4s ease, pointer-events 0.4s;
 }
 
@@ -148,19 +148,19 @@ body {
     transform: scale(1.05) !important;
 }
 
-/* --- ΤΟ ΚΟΥΜΠΙ ΤΟΥ ΜΕΝΟΥ --- */
+
 .hamburger {
     display: none; 
     background: none;
     border: none;
-    color: #ef7d57; /* Το χρώμα του logo */
+    color: #ef7d57; 
     font-size: 2rem;
     cursor: pointer;
     z-index: 999;
 }
 
 /* ========================================= */
-/*      RESPONSIVENESS (ΓΙΑ ΚΙΝΗΤΑ)          */
+/*      RESPONSIVENESS                       */
 /* ========================================= */
 @media (max-width: 900px) {
     .navbar{
@@ -249,9 +249,8 @@ body {
     }
 }
 
-/* --- ΝΕΟΣ ΚΑΝΟΝΑΣ ΓΙΑ ΤΟ BLUR ΟΤΑΝ ΤΟ ΜΕΝΟΥ ΕΙΝΑΙ ΑΝΟΙΧΤΟ --- */
 body.menu-open .left-panel,
 body.menu-open .right-panel {
     filter: blur(8px);
-    pointer-events: none; /* Απενεργοποιεί τα κλικ πίσω από το μενού */
+    pointer-events: none; 
 }
