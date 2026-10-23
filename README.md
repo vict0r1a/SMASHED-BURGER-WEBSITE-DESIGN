@@ -1,10 +1,10 @@
+<img width="955" height="492" alt="image" src="https://github.com/user-attachments/assets/81c23746-ce97-412d-976c-f340e8d3d91b" />
 # 🍔 SMASHED! - Interactive Burger Landing Page
-
 A modern, interactive landing page for a smash burger joint, focusing on cinematic animations and premium user experience!
 
 # 💡THE IDEA
-This project ideas was inspired by a newly opened burger restaurant in my area. I wanted to capture the energy and **juicy** feeling of their food. 
-I was thinking how could I create a website for such restaurant and though of an animation and I desperately wanted to test it out.
+This project idea was inspired by a newly opened burger restaurant in my area. I wanted to capture the energy and **juicy** feeling of their food. 
+I was thinking how could I create a website for such restaurant and thought of an animation and I desperately wanted to test it out.
 
 # 🌟FEATURES
 * **Cinematic Intro Animation:** an automatic frame-by-frame animation (128 frames) showing the burger ingredients stacking up.
@@ -29,3 +29,8 @@ I was thinking how could I create a website for such restaurant and though of an
 # ❗DISCLAIMER❗
 The burger animation is **AI-generated** and I extracted all the frames. I wanted the burger as **realistic** as possible and since I don't have any experience in
 editing, design, photoshop I decided to use an AI tool for this purpose only. Using an actual burger 🍔 would look a thousand times better!
+
+
+
+
+
