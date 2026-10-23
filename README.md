@@ -1,4 +1,6 @@
 <img width="955" height="492" alt="image" src="https://github.com/user-attachments/assets/81c23746-ce97-412d-976c-f340e8d3d91b" />
+
+
 # 🍔 SMASHED! - Interactive Burger Landing Page
 A modern, interactive landing page for a smash burger joint, focusing on cinematic animations and premium user experience!
 
